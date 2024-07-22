@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdalla Ahmed elshahat - Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="left">
+            <img src="/css/images/image.png" alt="abdalla elshahat">
+        </div>
+        
+            <div data-aos="fade-down" class="right">
+                <h1 class="info">Hi, I'm Abdalla elshahat</h1>
+                <p>Iam Frontend Developer</p>
+                <button onclick="location.href='#projects'">View My Work</button>
+                <button onclick="location.href='#contact'">Contact Me</button>
+            </div>
+    </section>
+    
+    <section id="about">
+<h2>About Me</h2>
+<p>my name is abdalla from elmahla[Egypt] i learned track front-end develober online by some courses and do problem solving on Codeforce   
+and i have trining in FreeCodeCamp Compeny <i class="fa-brands fa-free-code-camp" style="color: #FFD43B;"></i> and have some Certificates such as from prodigy internship</p>
+<br>
+<h3>Computer Scince</h3>
+<p>3 GPA, CS and IT, Tanta university, 2025</p>
+ <h3>more exprenice in CodeCamp</h3>
+ <p>Frontend develober, CodeCamp ,3 monthe</p>
+    </section>    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Html <i class="fa-brands fa-html5" style="color: #ff0f0f;"></i> </li>
+            <li>Css <i class="fa-brands fa-css3" style="color: #005eff;"></i></li>
+            <li>JavaScript <i class="fa-brands fa-js" style="color: #FFD43B;"></i> </li>
+            <li>Bootstrab <i class="fa-brands fa-bootstrap" style="color: #176bfd;"></i></li>
+            <li>Sass <i class="fa-brands fa-sass" style="color: #ff007b;"></i></li>
+            <li>Reactjs <i class="fa-brands fa-react" style="color: #2a9ff8;"></i></li>
+            <li>Nextjs  <i class="fa-solid fa-code"></i></li>
+            <li>GitHub&Git <i class="fa-brands fa-github"></i></li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="contener">
+            <div class="project">
+                <h3>Online-courses</h3>
+                <p><pre>
+             • Built using React
+             • Dynamic Course Catalog: Browse and filter a wide range of courses effortlessly
+             • Interactive UI: Smooth, engaging user interface with intuitive navigation
+             • Responsive Design: Optimized for both desktop and mobile devices
+             • State Management: Efficient data handling using React's state management</pre></p>
+                <a href="https://github.com/Abdalla-elshahat/online-courses">GitHubLink</a>
+            </div>
+            <div class="project">
+                <h3>E-commerce</h3>
+                <p><pre>
+             • Built using React
+             • Facilitates the buying and selling of laptops and phones
+             • Ensures a responsive, efficient, and user-friendly experience</pre></p>
+                <a href="https://github.com/Abdalla-elshahat/E-commerce">GitHubLink</a>
+            </div>
+            <div class="project">
+                <h3>Social media App</h3>
+                <p><pre>
+             • Developed using React
+             • Platform for users to connect, share updates, photos, and interact with each other
+             • Focuses on a rich user experience with real-time features and dynamic content updates</pre></p>
+                <a href="https://github.com/Abdalla-elshahat/SocialMedia">GitHubLink</a>
+            </div>
+            <div class="project">
+                <h3>Quiz App</h3>
+                <p><pre>
+             • Built using HTML, CSS, and JavaScript
+             • Timer functionality: If an answer is not selected within the time limit, the app moves to the next question without counting the previous
+                </pre></p>
+                <a href="https://github.com/Abdalla-elshahat/Quizapp">GitHubLink</a>
+            </div>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/abdalla-elshahat-245699242/">LinkedIn</a>
+            <a href="https://github.com/Abdalla-elshahat">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Abdalla Ahmed Elshahat 2002</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>     
+  AOS.init({
+    duration:3000, // Animation duration in milliseconds
+    offset: 200, // Offset (in px) from the original trigger point
+    delay: 100, // Values from 0 to 3000, with step 50ms
+    once:false, // Whether animation should happen only once - while scrolling down
+ });
+ var typed = new Typed('.info', {
+      string: "Hi, I'm Abdalla elshahat",
+      typeSpeed:50,
+      backSpeed:100,
+      backDelay:500,
+      startDelay: 500,
+      loop: true // Repeat the typing effect
+    });
+</script>
+</body>
+</html>

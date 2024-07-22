@@ -1,0 +1,260 @@
+/* Reset some default browser styles */
+:root{
+    --maincolor: #007bff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Set body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color:var(--maincolor);
+    text-shadow: 2px 2px 5px var(--maincolor);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#home .right{
+    width: 100%;
+}
+#home h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#home img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+#home button {
+    background: #fff;
+    color: #007bff;
+    border:1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+#home button:hover {
+    background:transparent;
+    border-color: var(--maincolor);
+}
+
+/* About Me Section */
+#about {
+    padding: 50px 20px;
+    background: #fff;
+    text-align:left;
+    font-size:25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#about i{
+font-size:50px
+}
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about p, #about h3 {
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 20px;
+    background:black;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: left;
+
+}
+#projects .contener{
+    display: flex;
+    justify-content: center;
+    align-self:center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#projects h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project {
+    margin:10px;
+    padding: 20px;
+    border-radius:10px;
+    background-color:black;
+    color:white;
+
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-image: url("https://www.mindinventory.com/blog/wp-content/uploads/2022/10/frontend-development-tools.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Social Links */
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #616161;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.social-links a:hover {
+    color:var(--maincolor)
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
