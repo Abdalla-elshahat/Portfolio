@@ -11,10 +11,13 @@ const ContactDetails = () => {
     <Text>*</Text>
     {Icon && <Icon fontSize="14px" />}
     <Text>
-      <Show above="sm" as="span" fontWeight="bold">
-        {label}:
-      </Show>{" "}
-      {value}
+  <Show above="sm">
+  <Text as="span" fontWeight="bold">
+    {label}:
+  </Text>
+</Show>{" "}
+{value}
+
     </Text>
   </HStack>
 ))}
