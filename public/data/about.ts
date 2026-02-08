@@ -3,7 +3,7 @@ export const aboutMe = {
     "A Full Stack Developer (MERN) with a degree in Computer Science (Information Systems) from Tanta University and 3 months training in campcode & work on qardy to improve my skills",
     "Experienced in leadership, teaching, and mentoring, having served as a military reserve officer with a background in web development. Skilled in front-end and back-end development,  and can deliver results under pressure. Passionate about building scalable web applications and contributing to innovative projects.",
   ],
-  cvPath: "/assets/Abdalla Ahmed Elshahat.pdf", // Corrected path (relative to public folder)
+  cvPath: "../assets/Abdalla Ahmed Elshahat.pdf", // Corrected path (relative to public folder)
   cvFileNameAfterDownload: "Abdalla Ahmed Elshahat CV.pdf",
 };
 
