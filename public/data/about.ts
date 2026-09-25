@@ -8,7 +8,7 @@ export const aboutMe = {
 };
 
 export const technicalSkills: Record<string, string[]> = {
-  "Programming Languages": ["JavaScript", "TypeScript", "C#", "C++"],
+  "Programming Languages": ["JavaScript", "TypeScript", "C++"],
   "Frontend Development": [
     "React",
     "Next.js",
@@ -17,7 +17,6 @@ export const technicalSkills: Record<string, string[]> = {
     "CSS3",
     "Bootstrap",
     "Tailwind",
-    "Chakra UI",
     "Redux Toolkit",
   ],
   "Backend Development": [
@@ -27,11 +26,17 @@ export const technicalSkills: Record<string, string[]> = {
     "Mongoose",
     "SQL",
     "MySQL",
+    "nestjs",
   ],
   "Tools & Technologies": [
     "Git",
     "GitHub",
     "Agile (Scrum, Jira, Kanban)",
+    "RESTful APIs",
+    "GraphQL",
+    "Docker",
+    "AWS",
+    "Postman",
   ],
   "Soft Skills": [
     "Presentation",
