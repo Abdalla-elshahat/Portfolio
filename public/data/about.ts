@@ -10,11 +10,11 @@ export const aboutMe = {
 export const technicalSkills: Record<string, string[]> = {
   "Programming Languages": ["JavaScript", "TypeScript", "C++"],
   "Frontend Development": [
+    "HTML5",
+    "CSS3",
     "React",
     "Next.js",
     "Angular",
-    "HTML5",
-    "CSS3",
     "Bootstrap",
     "Tailwind",
     "Redux Toolkit",

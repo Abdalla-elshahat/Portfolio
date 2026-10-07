@@ -56,19 +56,19 @@ export const projects = [
     Source: "https://github.com/Abdalla-elshahat/online-courses",
     Demo: "https://online-courses-nu.vercel.app/",
   },
-  {
-    ImageURL: "/assets/social.png",
-    Title: "Social media Web Application",
-    Description:
-      "frontend for a social media web application.",
-    Technologies: [
-      "react",
-      "typescript",
-      "html",
-      "css",
-      "responsive",
-    ],
-    Source: "https://github.com/Abdalla-elshahat/SocialMedia",
-    Demo: "https://social-media-nine-gamma.vercel.app/",
-  },
+  // {
+  //   ImageURL: "/assets/social.png",
+  //   Title: "Social media Web Application",
+  //   Description:
+  //     "frontend for a social media web application.",
+  //   Technologies: [
+  //     "react",
+  //     "typescript",
+  //     "html",
+  //     "css",
+  //     "responsive",
+  //   ],
+  //   Source: "https://github.com/Abdalla-elshahat/SocialMedia",
+  //   Demo: "https://social-media-nine-gamma.vercel.app/",
+  // },
 ];
