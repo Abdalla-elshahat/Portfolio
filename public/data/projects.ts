@@ -71,4 +71,19 @@ export const projects = [
   //   Source: "https://github.com/Abdalla-elshahat/SocialMedia",
   //   Demo: "https://social-media-nine-gamma.vercel.app/",
   // },
+    {
+    ImageURL: "/assets/abokamar.png",
+    Title: "Portfolio Vidio Editor",
+    Description:
+      "A responsive portfolio website for a video editor, showcasing creative projects and video editing skills with a clean and modern design. Built with Angular and TypeScript to provide a smooth browsing experience across desktop and mobile devices.",
+    Technologies: [
+      "Angular",
+      "typescript",
+      "html",
+      "css",
+      "responsive",
+    ],
+    Source: "https://github.com/Abdalla-elshahat/Abokamar-portfolio",
+    Demo: "https://abokamar-portfolio.vercel.app/",
+  },
 ];
